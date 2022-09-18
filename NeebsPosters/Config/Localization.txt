@@ -1,0 +1,9 @@
+Key,english
+signPosterNeebsRanchSim,Ranch Sim Poster
+signPosterNeebsArkSurvival,Ark Survival Poster
+signPosterNeebsBFFs,Battlefield Friends Poster
+signPosterNeebsDoraleous,Doraleous And Associates Poster
+signPosterNeebsZombieSurvivors,Zombie Survivors Poster
+signPosterNeebsWorldPeace,World Peace Poster
+signPosterNeebsVariantHelper,Neebs Gaming Posters
+signPosterNeebsVariantHelperDesc,"Decorate your base in-style with Neebs Gaming posters! Hold the Reload action and select the Shape entry from the radial menu to pick the poster you want."

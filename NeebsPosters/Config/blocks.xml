@@ -1,0 +1,101 @@
+<config>
+	<append xpath="/blocks">		
+		<block name="signPosterNeebsRanchSim">
+			<property name="Extends" value="decoEntityWoodMaster"/>		
+			<property name="CustomIcon" value="Poster1"/>			
+			<property name="Material" value="Mpaper"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#@modfolder:Assets/PostersNeebsGaming.unity3d?PosterNeebs1.prefab"/>
+			<property name="StabilitySupport" value="false"/>
+			<drop event="Destroy" name="resourcePaper" count="3,5"/>
+			<property name="MultiBlockDim" value="1,2,1"/>
+			<property name="ModelOffset" value="0,1,0.5"/>
+			<property name="CanPickup" value="true" param1="signPosterNeebsVariantHelper"/>
+			<property name="Collide" value="melee"/>
+		</block>		
+		
+		<block name="signPosterNeebsArkSurvival">
+			<property name="Extends" value="signPosterNeebsRanchSim"/>
+			<property name="CustomIcon" value="Poster2"/>
+			<property name="Material" value="Mpaper"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#@modfolder:Assets/PostersNeebsGaming.unity3d?PosterNeebs2.prefab"/>
+			<property name="StabilitySupport" value="false"/>
+			<drop event="Destroy" name="resourcePaper" count="3,5"/>
+			<property name="MultiBlockDim" value="1,2,1"/>
+			<property name="ModelOffset" value="0,1,0.5"/>
+			<property name="CanPickup" value="true" param1="signPosterNeebsVariantHelper"/>
+			<property name="Collide" value="melee"/>
+		</block>
+		
+		<block name="signPosterNeebsBFFs">
+			<property name="Extends" value="signPosterNeebsRanchSim"/>
+			<property name="CustomIcon" value="Poster3"/>
+			<property name="Material" value="Mpaper"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#@modfolder:Assets/PostersNeebsGaming.unity3d?PosterNeebs3.prefab"/>
+			<property name="StabilitySupport" value="false"/>
+			<drop event="Destroy" name="resourcePaper" count="3,5"/>
+			<property name="MultiBlockDim" value="1,2,1"/>
+			<property name="ModelOffset" value="0,1,0.5"/>
+			<property name="CanPickup" value="true" param1="signPosterNeebsVariantHelper"/>
+			<property name="Collide" value="melee"/>
+		</block>
+		
+		<block name="signPosterNeebsDoraleous">
+			<property name="Extends" value="signPosterNeebsRanchSim"/>
+			<property name="CustomIcon" value="Poster4"/>
+			<property name="Material" value="Mpaper"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#@modfolder:Assets/PostersNeebsGaming.unity3d?PosterNeebs4.prefab"/>
+			<property name="StabilitySupport" value="false"/>
+			<drop event="Destroy" name="resourcePaper" count="3,5"/>
+			<property name="MultiBlockDim" value="1,2,1"/>
+			<property name="ModelOffset" value="0,1,0.5"/>
+			<property name="CanPickup" value="true" param1="signPosterNeebsVariantHelper"/>
+			<property name="Collide" value="melee"/>
+		</block>
+		
+		<block name="signPosterNeebsZombieSurvivors">
+			<property name="Extends" value="signPosterNeebsRanchSim"/>
+			<property name="CustomIcon" value="Poster5"/>
+			<property name="Material" value="Mpaper"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#@modfolder:Assets/PostersNeebsGaming.unity3d?PosterNeebs5.prefab"/>
+			<property name="StabilitySupport" value="false"/>
+			<drop event="Destroy" name="resourcePaper" count="3,5"/>
+			<property name="MultiBlockDim" value="1,2,1"/>
+			<property name="ModelOffset" value="0,1,0.5"/>
+			<property name="CanPickup" value="true" param1="signPosterNeebsVariantHelper"/>
+			<property name="Collide" value="melee"/>
+		</block>
+		
+		<block name="signPosterNeebsWorldPeace">
+			<property name="Extends" value="signPosterNeebsRanchSim"/>
+			<property name="CustomIcon" value="Poster6"/>
+			<property name="Material" value="Mpaper"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#@modfolder:Assets/PostersNeebsGaming.unity3d?PosterNeebs6.prefab"/>
+			<property name="StabilitySupport" value="false"/>
+			<drop event="Destroy" name="resourcePaper" count="3,5"/>
+			<property name="MultiBlockDim" value="1,2,1"/>
+			<property name="ModelOffset" value="0,1,0.5"/>
+			<property name="CanPickup" value="true" param1="signPosterNeebsVariantHelper"/>
+			<property name="Collide" value="melee"/>
+		</block>
+		
+		<block name="signPosterNeebsVariantHelper">
+			<property name="Extends" value="signPosterNeebsRanchSim"/>
+			<property name="CustomIcon" value="Poster6"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DescriptionKey" value="signPosterNeebsVariantHelperDesc"/>
+			<property name="ItemTypeIcon" value="all_blocks"/>
+			<property name="SelectAlternates" value="true"/>
+			<property name="PlaceAltBlockValue" value="signPosterNeebsRanchSim,signPosterNeebsArkSurvival,signPosterNeebsBFFs,signPosterNeebsDoraleous,signPosterNeebsZombieSurvivors,signPosterNeebsWorldPeace"/>
+			<property name="PickupJournalEntry" value="shapeMenuTip"/>
+			<property name="FilterTags" value="MC_building,SC_decor,SC_industrial,SC_commercial,SC_residential"/>
+			<property name="Group" value="Decor/Miscellaneous"/>
+			<property name="Collide" value="melee"/>
+		</block>
+	</append>
+</config>

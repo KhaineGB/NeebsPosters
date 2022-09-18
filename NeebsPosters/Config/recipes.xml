@@ -1,0 +1,10 @@
+<configs>
+	<append xpath="/recipes">
+		<recipe name="signPosterNeebsVariantHelper" count="1">
+			<ingredient name="resourcePaint" count="10" />
+			<ingredient name="resourcePaper" count="5" />
+			<ingredient name="resourceWood" count="4"/>			
+			<ingredient name="resourceDuctTape" count="2"/>
+		</recipe> 
+	</append>
+</configs>
